@@ -1,0 +1,21 @@
+{
+  "name": "prometheus-express-example",
+  "version": "1.0.0",
+  "description": "poc reproducing bug with global registry variable that is module scoped",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --env node",
+    "start": "node src/index.js"
+  },
+  "author": "haakondr@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "express-prometheus-middleware": "0.8.5",
+    "prom-client": "12.0.0"
+  },
+  "devDependencies": {
+    "isomorphic-fetch": "2.2.1",
+    "jest": "25.2.7"
+  }
+}
